@@ -1,14 +1,14 @@
 
 {
     "builds": [{
-        "src": "Mini-Project--Online--Inventory-Management-System/wsgi.py",
+        "src": "online-inventory-management-system/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "Mini-Project--Online--Inventory-Management-System/wsgi.py"
+            "dest": "online-inventory-management-system/wsgi.py"
         }
     ]
 }
